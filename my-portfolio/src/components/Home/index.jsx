@@ -1,5 +1,6 @@
 import React from 'react';
-import Skills from '../Skills/Skills';
+import { NavLink } from 'react-router-dom';
+import Skills from '../Skills';
 import './Home.css'
 
 function Home() {
@@ -18,12 +19,12 @@ function Home() {
                                 creativity drives me to design and develop unique websites.
                                 Combining my technical skills and innovative mindset, I strive to create visually appealing web pages.
                             </p>
-                            <a href="https://cemileblks.github.io/react-portfolio/projects" className="btn button-pink mt-3 fs-5" rel="noopener noreferrer">
+                            <NavLink to="/projects" className="btn button-pink mt-3 fs-5" rel="noopener noreferrer">
                                 View Projects
-                            </a>
-                            <a href="https://cemileblks.github.io/react-portfolio/contact" className="btn button-pink mt-3 fs-5 mx-3" rel="noopener noreferrer">
+                            </NavLink >
+                            <NavLink to="/contact" className="btn button-pink mt-3 fs-5 mx-3" rel="noopener noreferrer">
                                 Contact me
-                            </a>
+                            </NavLink>
                         </div>
                         <div className="col-md-4 col-sm-12 order-md-2 mt-4 mt-md-1">
                             <div className="image-container rounded-circle">

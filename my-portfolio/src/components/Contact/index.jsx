@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './ContactForm.css'
-import SocialMedia from '../SocialMedia/SocialMedia';
+import './Contact.css'
+import SocialMedia from '../SocialMedia';
 
-function ContactForm() {
+function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -130,4 +130,4 @@ function ContactForm() {
     );
 }
 
-export default ContactForm;
+export default Contact;

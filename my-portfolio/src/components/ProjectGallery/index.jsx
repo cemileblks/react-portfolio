@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../Project/Project';
+import Project from '../Project';
 import projects from '../../data/projects.json'
 
 function ProjectGallery() {
